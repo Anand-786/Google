@@ -3,10 +3,10 @@ import PaginationButtons from './PaginationButtons'
 
 function SearchResults({results}) {
   return (
-    <div className='mx-auto md:w-full px-3 sm:pl-[5%] md:pl-[14%] lg:pl-52 md:text-lg w-screen'>
+    <div className='mx-auto w-full px-3 sm:pl-[5%] md:pl-[14%] lg:pl-52 md:text-lg'>
         <p className='text-gray-600 text-md mb-5 mt-3'>About {results.searchInformation?.formattedTotalResults} results ({results.searchInformation?.formattedSearchTime} seconds)</p>
         {results.items?.map((result) => (
-            <div key={result.link} className='mb-8 max-w-3xl'>
+            <div key={result.link} className='mb-8 max-w-'>
                 <div className='group'>
                     <a href={result.link} className='text-sm'>
                         {result.formattedUrl}
