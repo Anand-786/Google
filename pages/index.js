@@ -50,7 +50,7 @@ export default function Home() {
           rounded-full border border-gray-200 px-5 py-3 items-center sm:max-w-xl lg:max-w-2xl'>
             <SearchIcon className='h-5 mr-3 text-gray-500 shrink-0' />
             <input ref={searchInputRef} type='text' className='focus:outline-none flex-grow' />
-            <MicrophoneIcon className='h-5 cursor-pointer shrink-0' />
+            <MicrophoneIcon className='mr-3 h-5 cursor-pointer shrink-0' />
           </div>
           <div className='flex flex-col w-1/2 space-y-2 justify-center mt-8 
           sm:space-y-0 sm:flex-row sm:space-x-4'>
