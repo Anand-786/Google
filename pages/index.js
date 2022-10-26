@@ -23,7 +23,6 @@ export default function Home() {
       <Head>
         <title>Google</title>
         <link rel="icon" href="/favicon.png" />
-        <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' />
       </Head>
       {/* Header */}
       <header className='flex w-full p-5 justify-between text-sm text-gray-700'>

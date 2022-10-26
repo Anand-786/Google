@@ -14,7 +14,6 @@ function Search({results}) {
         <Head>
             <title>{router.query.term} - Google Search</title>
             <link rel='icon' href='/favicon.png' />
-            <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' />
         </Head>
 
         {/* Header */}
