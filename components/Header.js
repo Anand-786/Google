@@ -22,7 +22,9 @@ function Header() {
 
             <form className='flex flex-1 border border-gray-200 rounded-full shadow-lg max-w-3xl items-center
             px-3 py-3 sm:px-6 sm:py-3 ml-1 mr-1 sm:ml-10 sm:mr-5'>
-                <input type='text' ref={searchInputRef} className='flex-1 w-full focus:outline-none text-sm sm:text-base' />
+                <input type='text' ref={searchInputRef} 
+                className='flex-1 w-full focus:outline-none text-sm sm:text-base'
+                defaultValue={router.query.term} />
                 <XIcon className='h-5 sm:h-7 sm:mr-3 cursor-pointer text-gray-500 large' onClick={() => searchInputRef.current.value=''} />
                 <MicrophoneIcon className='h-6 mr-3 hidden sm:inline-flex 
                 text-blue-500 border-l-2 pl-4 border-gray-300 cursor-pointer' />
